@@ -1,0 +1,24 @@
+[
+	{
+		"id": "1",
+		"Description": "Deu erro porque fiz errado",
+		"Origen": "127.0.0",
+		"Level": "error",
+		"Log": "Bug na central de erro",
+		"Environment": "produção",
+		"Frequency": 1000,
+		"Date": "25/10/2019 ás 10:15",
+		"isArquived": true
+	},
+	{
+		"id": "2",
+		"Description": "Deu erro porque fiz errado",
+		"Origen": "127.0.0",
+		"Level": "error",
+		"Log": "Bug na central de erro",
+		"Environment": "produção",
+		"Frequency": 1000,
+		"Date": "25/10/2019 ás 10:15",
+		"isArquived": false
+	}
+]
