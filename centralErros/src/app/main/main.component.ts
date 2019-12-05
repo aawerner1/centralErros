@@ -31,23 +31,24 @@ export class MainComponent implements OnInit {
     })
   }
 
-  archive(ev) { 
-    console.log(ev);
+  archive(ev, log) { 
+    log.isArquived = true;
+    this.logService.updateLog(ev,log).toPromise();
     this.getLogs();
   }
 
-  unarchive(ev) { 
-    console.log(ev);
+  unarchive(ev, log) { 
+    log.isArquived = false;
+    this.logService.updateLog(ev,log).toPromise();
     this.getLogs();
   }
 
   delete(ev) { 
-    console.log(ev); 
+    this.logService.deleteLog(ev).toPromise();
     this.getLogs();
   }
 
   show(ev) { 
-    console.log(ev); 
     this.router.navigate(['/description', ev]);
   }
 

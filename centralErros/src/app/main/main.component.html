@@ -77,7 +77,7 @@
 						<th mat-header-cell *matHeaderCellDef></th>
 						<td class="text-right" mat-cell *matCellDef="let log">
 							<i class="fa-fw far fa-eye" (click)="show(log.id)" matTooltip="Mostrar log"></i>
-							<i class="fa-fw fas fa-arrow-alt-circle-right"  (click)="archive(log.id)" matTooltip="Arquivar log"></i>
+							<i class="fa-fw fas fa-arrow-alt-circle-right"  (click)="archive(log.id, log)" matTooltip="Arquivar log"></i>
 							<i class="fa-fw ml-4 fas fa-trash-alt" (click)="delete(log.id)" matTooltip="Deletar log"></i>
 						</td>
 					</ng-container>
@@ -124,7 +124,7 @@
 						<th mat-header-cell *matHeaderCellDef></th>
 						<td class="text-right" mat-cell *matCellDef="let log">
 								<i class="fa-fw far fa-eye" (click)="show(log.id)" matTooltip="Mostrar log"></i>
-								<i class="fa-fw fas fa-arrow-alt-circle-left"  (click)="unarchive(log.id)" matTooltip="Desarquivar log"></i>
+								<i class="fa-fw fas fa-arrow-alt-circle-left"  (click)="unarchive(log.id, log)" matTooltip="Desarquivar log"></i>
 								<i class="fa-fw ml-4 fas fa-trash-alt" (click)="delete(log.id)" matTooltip="Deletar log"></i>
 						</td>
 					</ng-container>
