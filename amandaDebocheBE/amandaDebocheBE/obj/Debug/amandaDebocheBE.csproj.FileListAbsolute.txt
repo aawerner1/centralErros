@@ -1,0 +1,46 @@
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE\bin\amandaDebocheBE.dll
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE\bin\amandaDebocheBE.pdb
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE\bin\Newtonsoft.Json.dll
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE\bin\System.Net.Http.Formatting.dll
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE\bin\System.Web.Http.dll
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE\bin\System.Web.Http.WebHost.dll
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE\bin\Newtonsoft.Json.xml
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE\bin\System.Net.Http.Formatting.xml
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE\bin\System.Web.Http.xml
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE\bin\System.Web.Http.WebHost.xml
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE\obj\Debug\amandaDebocheBE.csprojResolveAssemblyReference.cache
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE\obj\Debug\amandaDebocheBE.dll
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE\obj\Debug\amandaDebocheBE.pdb
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE\bin\System.Web.Cors.dll
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE\bin\System.Web.Http.Cors.dll
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE\bin\System.Web.Http.Cors.xml
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE\bin\AmandaDebocheBE.BLL.dll
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE\bin\amandaDebocheBE.Models.dll
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE\bin\amandaDeboche.DAL.dll
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE\bin\AmandaDebocheBE.BLL.pdb
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE\bin\amandaDebocheBE.Models.pdb
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE\bin\amandaDeboche.DAL.pdb
+C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\bin\amandaDebocheBE.dll.config
+C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\bin\amandaDebocheBE.dll
+C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\bin\amandaDebocheBE.pdb
+C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\bin\AmandaDebocheBE.BLL.dll
+C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\bin\amandaDebocheBE.Models.dll
+C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\bin\Newtonsoft.Json.dll
+C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\bin\System.Net.Http.Formatting.dll
+C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\bin\System.Web.Cors.dll
+C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\bin\System.Web.Http.Cors.dll
+C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\bin\System.Web.Http.dll
+C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\bin\System.Web.Http.WebHost.dll
+C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\bin\amandaDeboche.DAL.dll
+C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\bin\AmandaDebocheBE.BLL.pdb
+C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\bin\amandaDebocheBE.Models.pdb
+C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\bin\Newtonsoft.Json.xml
+C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\bin\System.Net.Http.Formatting.xml
+C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\bin\System.Web.Http.xml
+C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\bin\System.Web.Http.Cors.xml
+C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\bin\System.Web.Http.WebHost.xml
+C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\bin\amandaDeboche.DAL.pdb
+C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\obj\Debug\amandaDebocheBE.csprojAssemblyReference.cache
+C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\obj\Debug\amandaDebocheBE.csproj.CopyComplete
+C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\obj\Debug\amandaDebocheBE.dll
+C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\obj\Debug\amandaDebocheBE.pdb

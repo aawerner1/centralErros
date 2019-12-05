@@ -1,0 +1,7 @@
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDeboche.DAL\bin\Debug\amandaDeboche.DAL.dll
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDeboche.DAL\bin\Debug\amandaDeboche.DAL.pdb
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDeboche.DAL\bin\Debug\amandaDebocheBE.Models.dll
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDeboche.DAL\bin\Debug\amandaDebocheBE.Models.pdb
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDeboche.DAL\obj\Debug\amandaDeboche.DAL.csprojResolveAssemblyReference.cache
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDeboche.DAL\obj\Debug\amandaDeboche.DAL.dll
+c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDeboche.DAL\obj\Debug\amandaDeboche.DAL.pdb
