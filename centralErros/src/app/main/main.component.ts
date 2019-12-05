@@ -10,18 +10,18 @@ import { LogService } from '../services/log.service';
 })
 
 export class MainComponent implements OnInit {
- 
+
   @ViewChild(MatPaginator, {static: true}) paginator: MatPaginator;
   @ViewChild('PaginatorArchive', {static: true}) paginatorArchive: MatPaginator;
 
   dataSource;
   dataSourceArchive;
   displayedColumns: string[] = ['level', 'description', 'origin', 'date', 'frequency', 'actions'];
-  
+
   ngOnInit(): void {
     this.getLogs();
   }
-  
+
   getLogs() {
         this.logService.getLogs().toPromise().then((data) => {
         this.dataSource = new MatTableDataSource(data);
@@ -31,26 +31,27 @@ export class MainComponent implements OnInit {
     })
   }
 
-  archive(ev, log) { 
-    log.isArquived = true;
-    this.logService.updateLog(ev,log).toPromise();
-    this.getLogs();
+  archive(ev, log) {
+    this.logService.updateLog(ev,log).toPromise().then( () => {
+      this.getLogs();
+    });
   }
 
-  unarchive(ev, log) { 
-    log.isArquived = false;
-    this.logService.updateLog(ev,log).toPromise();
-    this.getLogs();
+  unarchive(ev, log) {
+    this.logService.updateLog(ev,log).toPromise().then( () => {
+      this.getLogs();
+    });
   }
 
-  delete(ev) { 
-    this.logService.deleteLog(ev).toPromise();
-    this.getLogs();
+  delete(ev) {
+    this.logService.deleteLog(ev).toPromise().then( () => {
+      this.getLogs();
+    });
   }
 
-  show(ev) { 
+  show(ev) {
     this.router.navigate(['/description', ev]);
   }
 
-  constructor(public router : Router, public logService : LogService) { } 
+  constructor(public router : Router, public logService : LogService) { }
 }

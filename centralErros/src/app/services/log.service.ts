@@ -20,10 +20,9 @@ export class log {
 const httpOptions = {
   headers: new HttpHeaders({'Content-Type': 'application/json'})
 };
-//const apiUrl = 'http://localhost:64172/api/Deboche';
+const apiUrl = 'http://localhost:64172/api/Deboche';
 //const apiUrl = 'assets/api/log.json';
-
-const apiUrl = 'http://www.mocky.io/v2/5de86fa031000086006b117e'
+//const apiUrl = 'http://www.mocky.io/v2/5de86fa031000086006b117e'
 
 @Injectable({
   providedIn: 'root'
@@ -42,7 +41,7 @@ export class LogService {
 
   getLog(id: number) {
     const url = `${apiUrl}/${id}`;
-    return this.http.get(apiUrl);
+    return this.http.get(url).toPromise();
   }
 
   addLog(log): Observable<log> {
@@ -55,7 +54,7 @@ export class LogService {
   }
 
   deleteLog(id): Observable<log> {
-    const url = `${apiUrl}/delete/${id}`;
+    const url = `${apiUrl}/${id}`;
     return this.http.delete<log>(url, httpOptions);
   }
 

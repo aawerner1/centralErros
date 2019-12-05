@@ -10,7 +10,8 @@ import { LogService } from '../services/log.service';
 export class DescriptionComponent implements OnInit {
 
   dataLog;
-  id: number;
+  id;
+  log;
   private sub: any;
 
   constructor(public logService: LogService,
@@ -18,17 +19,13 @@ export class DescriptionComponent implements OnInit {
 
   ngOnInit() {
     this.sub = this.route.params.subscribe(params => {
-      this.id = +params['id'];
-      this.carregarLog(this.id);
-    })
+	  this.id = +params['id'];
+	})
+	this.logInfo();
   }
 
-  carregarLog(id: number) {
-    this.logService.getLog(id)
-    .toPromise()
-    .then((data) => {
-      console.log(data)
-    })
+  logInfo() {
+	this.logService.getLog(this.id).then((data) => { this.log = data; })
   }
 
   ngOnDestroy() {
