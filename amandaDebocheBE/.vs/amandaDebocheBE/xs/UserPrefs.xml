@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{0354CBD9-325B-45E3-97FE-630AD703D762}|">
+  <MonoDevelop.Ide.ItemProperties.amandaDebocheBE PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="amandaDebocheBE/Controllers/DebocheController.cs">
+    <Files>
+      <File FileName="amandaDebocheBE.Models/LogInfo.cs" Line="23" Column="1" />
+      <File FileName="AmandaDebocheBE.BLL/LogBLL.cs" Line="1" Column="1" />
+      <File FileName="amandaDeboche.DAL/LogDAL.cs" Line="52" Column="37" />
+      <File FileName="amandaDebocheBE.Models/DebocheFilter.cs" Line="1" Column="1" />
+      <File FileName="amandaDebocheBE/Global.asax" Line="1" Column="1" />
+      <File FileName="amandaDebocheBE/packages.config" Line="1" Column="1" />
+      <File FileName="amandaDebocheBE/Web.config" Line="1" Column="1" />
+      <File FileName="amandaDeboche.DAL/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="amandaDebocheBE/Web.Debug.config" Line="1" Column="1" />
+      <File FileName="amandaDebocheBE/Web.Release.config" Line="1" Column="1" />
+      <File FileName="amandaDebocheBE/App_Start/WebApiConfig.cs" Line="1" Column="1" />
+      <File FileName="amandaDebocheBE/Controllers/DebocheController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="amandaDebocheBE" expanded="True">
+            <Node name="amandaDeboche.DAL" expanded="True">
+              <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="amandaDebocheBE" expanded="True" selected="True">
+              <Node name="App_Start" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="AmandaDebocheBE.BLL" expanded="True" />
+            <Node name="amandaDebocheBE.Models" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

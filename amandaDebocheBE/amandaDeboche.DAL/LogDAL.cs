@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 namespace amandaDeboche.DAL
 {
+
+    // DADOS DO BANCO
     public class LogDAL
     {
         public List<LogInfo> getLogs()

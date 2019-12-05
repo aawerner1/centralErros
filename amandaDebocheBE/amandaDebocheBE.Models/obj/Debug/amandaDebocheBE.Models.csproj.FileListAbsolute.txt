@@ -1,5 +1,9 @@
-c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE.Models\bin\Debug\amandaDebocheBE.Models.dll
-c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE.Models\bin\Debug\amandaDebocheBE.Models.pdb
-c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE.Models\obj\Debug\amandaDebocheBE.Models.csprojResolveAssemblyReference.cache
-c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE.Models\obj\Debug\amandaDebocheBE.Models.dll
-c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDebocheBE.Models\obj\Debug\amandaDebocheBE.Models.pdb
+c:/users/amanda.werner/documents/visual studio 2012/Projects/amandaDebocheBE/amandaDebocheBE.Models/bin/Debug/amandaDebocheBE.Models.dll
+c:/users/amanda.werner/documents/visual studio 2012/Projects/amandaDebocheBE/amandaDebocheBE.Models/bin/Debug/amandaDebocheBE.Models.pdb
+c:/users/amanda.werner/documents/visual studio 2012/Projects/amandaDebocheBE/amandaDebocheBE.Models/obj/Debug/amandaDebocheBE.Models.csprojResolveAssemblyReference.cache
+c:/users/amanda.werner/documents/visual studio 2012/Projects/amandaDebocheBE/amandaDebocheBE.Models/obj/Debug/amandaDebocheBE.Models.dll
+c:/users/amanda.werner/documents/visual studio 2012/Projects/amandaDebocheBE/amandaDebocheBE.Models/obj/Debug/amandaDebocheBE.Models.pdb
+/Users/aawerner/Projetos/centralErros/amandaDebocheBE/amandaDebocheBE.Models/bin/Debug/amandaDebocheBE.Models.dll
+/Users/aawerner/Projetos/centralErros/amandaDebocheBE/amandaDebocheBE.Models/bin/Debug/amandaDebocheBE.Models.pdb
+/Users/aawerner/Projetos/centralErros/amandaDebocheBE/amandaDebocheBE.Models/obj/Debug/amandaDebocheBE.Models.dll
+/Users/aawerner/Projetos/centralErros/amandaDebocheBE/amandaDebocheBE.Models/obj/Debug/amandaDebocheBE.Models.pdb
