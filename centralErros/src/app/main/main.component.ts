@@ -15,37 +15,49 @@ export class MainComponent implements OnInit {
   @ViewChild('PaginatorArchive', {static: true}) paginatorArchive: MatPaginator;
 
   dataSource;
+  hasArchived: boolean;
   dataSourceArchive;
   displayedColumns: string[] = ['level', 'description', 'origin', 'date', 'frequency', 'actions'];
 
   ngOnInit(): void {
     this.getLogs();
+    this.getArchive();
   }
 
   getLogs() {
         this.logService.getLogs().toPromise().then((data) => {
         this.dataSource = new MatTableDataSource(data);
         this.dataSource.paginator = this.paginator;
-        this.dataSourceArchive = new MatTableDataSource(data);
-        this.dataSourceArchive.paginator = this.paginatorArchive;
+        
     })
+  }
+
+  getArchive() {
+    this.logService.getLogsArquived().toPromise().then((data) => {
+      this.dataSourceArchive = new MatTableDataSource(data);
+      this.dataSourceArchive.paginator = this.paginatorArchive;
+      this.hasArchived = data.length  > 0; 
+    } )
   }
 
   archive(ev, log) {
     this.logService.updateLog(ev,log).toPromise().then( () => {
       this.getLogs();
+      this.getArchive();
     });
   }
 
   unarchive(ev, log) {
     this.logService.updateLog(ev,log).toPromise().then( () => {
       this.getLogs();
+      this.getArchive();
     });
   }
 
   delete(ev) {
     this.logService.deleteLog(ev).toPromise().then( () => {
       this.getLogs();
+      this.getArchive();
     });
   }
 

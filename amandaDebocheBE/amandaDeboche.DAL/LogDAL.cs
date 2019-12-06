@@ -91,11 +91,11 @@ namespace amandaDeboche.DAL
 
         // DAL é Data Access Layer (Camada de acesso a dados)
 
+
         public List<LogInfo> getLogs()
         {
             return _listLogs;
         }
-
         public LogInfo getLogInfo(int id) 
         {
             var logs = getLogs();

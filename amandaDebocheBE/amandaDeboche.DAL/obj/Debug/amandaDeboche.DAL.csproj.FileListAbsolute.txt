@@ -5,3 +5,11 @@ c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\ama
 c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDeboche.DAL\obj\Debug\amandaDeboche.DAL.csprojResolveAssemblyReference.cache
 c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDeboche.DAL\obj\Debug\amandaDeboche.DAL.dll
 c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\amandaDeboche.DAL\obj\Debug\amandaDeboche.DAL.pdb
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDeboche.DAL\bin\Debug\amandaDeboche.DAL.dll
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDeboche.DAL\bin\Debug\amandaDeboche.DAL.pdb
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDeboche.DAL\bin\Debug\amandaDebocheBE.Models.dll
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDeboche.DAL\bin\Debug\amandaDebocheBE.Models.pdb
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDeboche.DAL\obj\Debug\amandaDeboche.DAL.csprojAssemblyReference.cache
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDeboche.DAL\obj\Debug\amandaDeboche.DAL.csproj.CopyComplete
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDeboche.DAL\obj\Debug\amandaDeboche.DAL.dll
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDeboche.DAL\obj\Debug\amandaDeboche.DAL.pdb

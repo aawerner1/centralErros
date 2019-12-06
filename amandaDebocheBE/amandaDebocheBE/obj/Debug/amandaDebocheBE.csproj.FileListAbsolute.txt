@@ -44,3 +44,27 @@ C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaD
 C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\obj\Debug\amandaDebocheBE.csproj.CopyComplete
 C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\obj\Debug\amandaDebocheBE.dll
 C:\Users\amanda.werner\Documents\Nova pasta\centralErros\amandaDebocheBE\amandaDebocheBE\obj\Debug\amandaDebocheBE.pdb
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDebocheBE\bin\amandaDebocheBE.dll.config
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDebocheBE\bin\amandaDebocheBE.dll
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDebocheBE\bin\amandaDebocheBE.pdb
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDebocheBE\bin\AmandaDebocheBE.BLL.dll
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDebocheBE\bin\amandaDebocheBE.Models.dll
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDebocheBE\bin\Newtonsoft.Json.dll
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDebocheBE\bin\System.Net.Http.Formatting.dll
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDebocheBE\bin\System.Web.Cors.dll
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDebocheBE\bin\System.Web.Http.Cors.dll
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDebocheBE\bin\System.Web.Http.dll
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDebocheBE\bin\System.Web.Http.WebHost.dll
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDebocheBE\bin\AmandaDebocheBE.BLL.pdb
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDebocheBE\bin\amandaDebocheBE.Models.pdb
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDebocheBE\bin\Newtonsoft.Json.xml
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDebocheBE\bin\System.Net.Http.Formatting.xml
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDebocheBE\bin\System.Web.Http.xml
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDebocheBE\bin\System.Web.Http.Cors.xml
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDebocheBE\bin\System.Web.Http.WebHost.xml
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDebocheBE\obj\Debug\amandaDebocheBE.csprojAssemblyReference.cache
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDebocheBE\obj\Debug\amandaDebocheBE.csproj.CopyComplete
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDebocheBE\obj\Debug\amandaDebocheBE.dll
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDebocheBE\obj\Debug\amandaDebocheBE.pdb
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDebocheBE\bin\amandaDeboche.DAL.dll
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\amandaDebocheBE\bin\amandaDeboche.DAL.pdb

@@ -9,7 +9,6 @@ import { LogService } from '../services/log.service';
 })
 export class DescriptionComponent implements OnInit {
 
-  dataLog;
   id;
   log;
   private sub: any;
@@ -21,11 +20,11 @@ export class DescriptionComponent implements OnInit {
     this.sub = this.route.params.subscribe(params => {
 	  this.id = +params['id'];
 	})
-	this.logInfo();
+    this.logInfo();
   }
 
   logInfo() {
-	this.logService.getLog(this.id).then((data) => { this.log = data; })
+	this.logService.getLog(this.id).then((data) => { this.log = data; console.table(data) })
   }
 
   ngOnDestroy() {

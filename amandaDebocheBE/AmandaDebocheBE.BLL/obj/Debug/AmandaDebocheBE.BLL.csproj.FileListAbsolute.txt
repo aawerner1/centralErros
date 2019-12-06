@@ -7,3 +7,13 @@ c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\Ama
 c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\AmandaDebocheBE.BLL\obj\Debug\AmandaDebocheBE.BLL.csprojResolveAssemblyReference.cache
 c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\AmandaDebocheBE.BLL\obj\Debug\AmandaDebocheBE.BLL.dll
 c:\users\amanda.werner\documents\visual studio 2012\Projects\amandaDebocheBE\AmandaDebocheBE.BLL\obj\Debug\AmandaDebocheBE.BLL.pdb
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\AmandaDebocheBE.BLL\bin\Debug\AmandaDebocheBE.BLL.dll
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\AmandaDebocheBE.BLL\bin\Debug\AmandaDebocheBE.BLL.pdb
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\AmandaDebocheBE.BLL\bin\Debug\amandaDeboche.DAL.dll
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\AmandaDebocheBE.BLL\bin\Debug\amandaDebocheBE.Models.dll
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\AmandaDebocheBE.BLL\bin\Debug\amandaDeboche.DAL.pdb
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\AmandaDebocheBE.BLL\bin\Debug\amandaDebocheBE.Models.pdb
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\AmandaDebocheBE.BLL\obj\Debug\AmandaDebocheBE.BLL.csprojAssemblyReference.cache
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\AmandaDebocheBE.BLL\obj\Debug\AmandaDebocheBE.BLL.csproj.CopyComplete
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\AmandaDebocheBE.BLL\obj\Debug\AmandaDebocheBE.BLL.dll
+C:\Users\Leandro\Downloads\Amanda\centralErros\amandaDebocheBE\AmandaDebocheBE.BLL\obj\Debug\AmandaDebocheBE.BLL.pdb

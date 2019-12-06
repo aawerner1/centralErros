@@ -42,7 +42,7 @@ import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { MainComponent } from './main/main.component';
 import { DescriptionComponent } from './description/description.component';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -54,6 +54,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
       DescriptionComponent
    ],
    imports: [
+      HttpClientModule,
       BrowserModule,
       AppRoutingModule,
       BrowserAnimationsModule,
@@ -90,7 +91,6 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
       MatTableModule,
       MatSortModule,
       MatPaginatorModule,
-      HttpClientModule
    ],
    providers: [],
    bootstrap: [

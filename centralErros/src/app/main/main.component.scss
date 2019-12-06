@@ -1,6 +1,10 @@
 table {
     width: 100%;
 
+    tr {
+        white-space: nowrap; 
+    }
+
     i {
         color: #424242;
         cursor: pointer;
@@ -16,3 +20,37 @@ table {
         }
     }
 }
+
+.blankslate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+    transition: 1s;
+
+    .icon {
+        height: 130px;
+        width: 130px;
+        text-align: center;
+
+        i {
+            font-size: 85px;
+            animation: mymove 5s infinite;
+            text-shadow: 3px 6px 7px rgba(0,0,0,.5);
+        }
+    }
+
+}
+
+@keyframes mymove {
+   0%{
+        margin-top: 0;
+    }
+    50%{
+        margin-top:20%;
+    }
+     100%{
+        margin-top: 0;
+    }
+  }

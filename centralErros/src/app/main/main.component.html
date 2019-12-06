@@ -29,7 +29,6 @@
 				</mat-select>
 			</mat-form-field>
 
-
 			<mat-form-field class="float-right" [hidden]="search === none">
 				<input matInput placeholder="Buscar">
 			</mat-form-field>
@@ -44,97 +43,106 @@
 				</mat-select>
 			</mat-form-field>
 
-
 			<div class="mat-elevation-z8">
-				<table mat-table [dataSource]="dataSource">
-				
-					<ng-container matColumnDef="level">
-					<th mat-header-cell *matHeaderCellDef> Nivel </th>
-					<td mat-cell *matCellDef="let log"> {{log.level}} </td>
-					</ng-container>
-				
-					<ng-container matColumnDef="description">
-					<th mat-header-cell *matHeaderCellDef> Descrição </th>
-					<td mat-cell *matCellDef="let log"> {{log.description}} </td>
-					</ng-container>
-				
-					<ng-container matColumnDef="origin">
-					<th mat-header-cell *matHeaderCellDef> Origen </th>
-					<td mat-cell *matCellDef="let log"> {{log.origin}} </td>
-					</ng-container>
-				
-					<ng-container matColumnDef="date">
-					<th mat-header-cell *matHeaderCellDef> Data </th>
-					<td mat-cell *matCellDef="let log"> {{log.date}} </td>
-					</ng-container>
-
-					<ng-container matColumnDef="frequency">
-						<th mat-header-cell *matHeaderCellDef> Frequencia </th>
-						<td mat-cell *matCellDef="let log"> {{log.frequency}} </td>
-					</ng-container>
-
-					<ng-container matColumnDef="actions">
-						<th mat-header-cell *matHeaderCellDef></th>
-						<td class="text-right" mat-cell *matCellDef="let log">
-							<i class="fa-fw far fa-eye" (click)="show(log.id)" matTooltip="Mostrar log"></i>
-							<i class="fa-fw fas fa-arrow-alt-circle-right"  (click)="archive(log.id, log)" matTooltip="Arquivar log"></i>
-							<i class="fa-fw ml-4 fas fa-trash-alt" (click)="delete(log.id)" matTooltip="Deletar log"></i>
-						</td>
-					</ng-container>
-				
-					<tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-					<tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
-				</table>
-				
+				<div class="table-responsive">
+					<table mat-table [dataSource]="dataSource">
+					
+						<ng-container matColumnDef="level">
+						<th mat-header-cell *matHeaderCellDef> Nivel </th>
+						<td mat-cell *matCellDef="let log"> {{log.level}} </td>
+						</ng-container>
+					
+						<ng-container matColumnDef="description">
+						<th mat-header-cell *matHeaderCellDef> Descrição </th>
+						<td mat-cell *matCellDef="let log"> {{log.description}} </td>
+						</ng-container>
+					
+						<ng-container matColumnDef="origin">
+						<th mat-header-cell *matHeaderCellDef> Origen </th>
+						<td mat-cell *matCellDef="let log"> {{log.origin}} </td>
+						</ng-container>
+					
+						<ng-container matColumnDef="date">
+						<th mat-header-cell *matHeaderCellDef> Data </th>
+						<td mat-cell *matCellDef="let log"> {{log.date}} </td>
+						</ng-container>
+	
+						<ng-container matColumnDef="frequency">
+							<th mat-header-cell *matHeaderCellDef> Frequencia </th>
+							<td mat-cell *matCellDef="let log"> {{log.frequency}} </td>
+						</ng-container>
+	
+						<ng-container matColumnDef="actions" stickyEnd>
+							<th mat-header-cell *matHeaderCellDef></th>
+							<td class="text-right" mat-cell *matCellDef="let log">
+								<i class="fa-fw far fa-eye" (click)="show(log.id)" matTooltip="Mostrar log"></i>
+								<i class="fa-fw fas fa-arrow-alt-circle-right"  (click)="archive(log.id, log)" matTooltip="Arquivar log"></i>
+								<i class="fa-fw ml-4 fas fa-trash-alt" (click)="delete(log.id)" matTooltip="Deletar log"></i>
+							</td>
+						</ng-container>
+					
+						<tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+						<tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+					</table>
+					
+				</div>
 				<mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
 			</div>
 		</div>
 	</mat-tab>
 	<mat-tab label="Arquivados">
 		<div class="m-5">
-			<div class="mat-elevation-z8">
-				<table mat-table [dataSource]="dataSourceArchive">
-				
-					<ng-container matColumnDef="level">
-					<th mat-header-cell *matHeaderCellDef> Nivel </th>
-					<td mat-cell *matCellDef="let log"> {{log.level}} </td>
-					</ng-container>
-				
-					<ng-container matColumnDef="description">
-					<th mat-header-cell *matHeaderCellDef> Descrição </th>
-					<td mat-cell *matCellDef="let log"> {{log.description}} </td>
-					</ng-container>
-				
-					<ng-container matColumnDef="origin">
-					<th mat-header-cell *matHeaderCellDef> Origen </th>
-					<td mat-cell *matCellDef="let log"> {{log.origin}} </td>
-					</ng-container>
-				
-					<ng-container matColumnDef="date">
-					<th mat-header-cell *matHeaderCellDef> Data </th>
-					<td mat-cell *matCellDef="let log"> {{log.date}} </td>
-					</ng-container>
+			<div class="mat-elevation-z8" [hidden]="!hasArchived">
+				<div class="table-responsive">
+					<table mat-table [dataSource]="dataSourceArchive">
+					
+						<ng-container matColumnDef="level">
+						<th mat-header-cell *matHeaderCellDef> Nivel </th>
+						<td mat-cell *matCellDef="let log"> {{log.level}} </td>
+						</ng-container>
+					
+						<ng-container matColumnDef="description">
+						<th mat-header-cell *matHeaderCellDef> Descrição </th>
+						<td mat-cell *matCellDef="let log"> {{log.description}} </td>
+						</ng-container>
+					
+						<ng-container matColumnDef="origin">
+						<th mat-header-cell *matHeaderCellDef> Origen </th>
+						<td mat-cell *matCellDef="let log"> {{log.origin}} </td>
+						</ng-container>
+					
+						<ng-container matColumnDef="date">
+						<th mat-header-cell *matHeaderCellDef> Data </th>
+						<td mat-cell *matCellDef="let log"> {{log.date}} </td>
+						</ng-container>
 
-					<ng-container matColumnDef="frequency">
-						<th mat-header-cell *matHeaderCellDef> Frequencia </th>
-						<td mat-cell *matCellDef="let log"> {{log.frequency}} </td>
-					</ng-container>
+						<ng-container matColumnDef="frequency">
+							<th mat-header-cell *matHeaderCellDef> Frequencia </th>
+							<td mat-cell *matCellDef="let log"> {{log.frequency}} </td>
+						</ng-container>
 
-					<ng-container matColumnDef="actions">
-						<th mat-header-cell *matHeaderCellDef></th>
-						<td class="text-right" mat-cell *matCellDef="let log">
+						<ng-container matColumnDef="actions" stickyEnd >
+							<th mat-header-cell *matHeaderCellDef [style.width.px]="80"></th>
+							<td class="text-right" mat-cell *matCellDef="let log" [style.width.px]="80">
 								<i class="fa-fw far fa-eye" (click)="show(log.id)" matTooltip="Mostrar log"></i>
 								<i class="fa-fw fas fa-arrow-alt-circle-left"  (click)="unarchive(log.id, log)" matTooltip="Desarquivar log"></i>
 								<i class="fa-fw ml-4 fas fa-trash-alt" (click)="delete(log.id)" matTooltip="Deletar log"></i>
-						</td>
-					</ng-container>
-				
-					<tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-					<tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
-				</table>
-				
+							</td>
+						</ng-container>
+					
+						<tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+						<tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+					</table>
+				</div>
 				<mat-paginator #PaginatorArchive [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
 			</div>
+			<div class="blankslate" [hidden]="hasArchived" >
+				<div class="icon">
+					<i class="fas fa-ghost"></i>
+				</div>
+				<span>Você não possui logs arquivados.</span>
+			</div>
+
 		</div> 
 	</mat-tab>
 </mat-tab-group>
